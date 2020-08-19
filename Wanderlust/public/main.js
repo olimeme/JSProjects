@@ -1,10 +1,9 @@
-require('dotenv').config();
 // Foursquare API Info
-const clientId = process.env.FORECAST_CLIENT_ID;
-const clientSecret = process.env.FORECAST_CLIENT_SECRET;
+const clientId = 'INBBBTB3TL2T1QZNGEZRVVYWVZWSB1A21IFJYODCNLIS1DO1';
+const clientSecret = 'UT3YJQOF2YWMZORUBAYZ5KCXQVN5U3ZD3BN2LSUMHTRJWVYD';
 const url = 'https://api.foursquare.com/v2/venues/explore?near=';
 // OpenWeather Info
-const openWeatherKey = process.env.OPEN_WEATHER_API_KEY;
+const openWeatherKey = '1585ab7611be7077c38574f533eab717';
 const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
 // Page Elements
